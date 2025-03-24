@@ -1,0 +1,15 @@
+
+# pipenv install -r requirements.txt
+
+# Then also install the jupyter kernel spec
+# pipenv run python -m ipykernel install --user --name=`basename $VIRTUAL_ENV`
+
+# Subsequently in jupyter you can select the corresponding kernel.
+
+matplotlib
+jupyterlab
+scipy
+pandas
+numpy
+
+
