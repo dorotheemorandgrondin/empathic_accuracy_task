@@ -35,5 +35,7 @@ Third, other individuals ('observers') watched the videos and inferred the targe
 	Second, we assess the specificity of HR and HRV synchrony (i.e., correlations between HR and HRV of targets and observers). To do so, we do a one-sample t-test. Then we do the same on target-level. With graphs. 
 	Output = adding a percentile column for every trial score to the original HR and HRV scores (relative to the target distribution + to the full distribution).
 
+All analyses are presented using data from Phase II of the study (n = 28 observers, 30 videos presented in total), and data from Phase III (n = 30 observers, subset of 12 videos presented) is available here as well (labelled PHASE3 in the data), analyses were performed using the same scripts for both Phases. 
+
 'combined_analysis'
 	Assessing correlations between empathic accuracy and physiological synchrony measures, their correlations with other empathy measures (Basic Empathy Scale in Adults; Multifaceted Empathy Test), and split-half reliability. 
