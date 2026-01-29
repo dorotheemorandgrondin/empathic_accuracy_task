@@ -1,12 +1,14 @@
-Development and validation of an adapted version of the Empathic Accuracy Task (EAT)
+# Development and validation of an adapted version of the Empathic Accuracy Task (EAT)
 
-=== CONTEXT ===
+## Context
 
-First, we created video stimuli depicting individuals ('targets') narrating emotional autobiographical events. Heart rate was continuously recorded during the narratives. 
-Second, targets watched their own videos and rated their emotional experience, including (1) a continuous valence rating through the video, and (2) an evaluation of the specific emotions they experienced. 
-Third, other individuals ('observers') watched the videos and inferred the targets' emotional states on the same continuous and discrete scale. 
+This repository contains the analysis code for a study investigating empathic accuracy and physiological synchrony using video stimuli. First, we created video stimuli depicting individuals ('targets') narrating emotional autobiographical events. Heart rate was continuously recorded during the narratives. Second, targets watched their own videos and rated their emotional experience, including (1) a continuous valence rating through the video, and (2) an evaluation of the specific emotions they experienced. Third, other individuals ('observers') watched the videos and inferred the targets' emotional states on the same continuous and discrete scale. 
 
-=== DATA ANALYSIS IN ORDER ===
+### Task implementation
+
+The experimental task used in this study is included here as a git submodule in task folder. 
+
+## Data analysis, in order
 
 'behavioral_analysis_1'
 	Here we smooth the continuous emotional valence ratings of targets and observers in a window of 10s to reduce noise. And make graphs for visual representation of the data.
